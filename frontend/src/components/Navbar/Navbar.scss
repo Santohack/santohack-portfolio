@@ -1,0 +1,46 @@
+.app_navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #edf2f8;
+    padding: 1rem 6rem;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid whitesmoke;
+    position: fixed;
+    z-index: 2;
+
+
+}
+.app_navbar-link{
+    display: flex;
+    flex:1;
+    align-items:space-between;
+   
+    justify-content: center;
+   
+}
+ul{
+    list-style-type: none;  
+}
+.app_navbar-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    img{
+        width: 90px;
+        height: 20px;
+        @media screen and (min-width:2000px){
+            width: 180px;
+            height: 90px;
+            
+        }
+    }
+   
+}
+li{
+    margin: 0 2rem 0;
+    flex-direction: column;
+    cursor: pointer;
+}
